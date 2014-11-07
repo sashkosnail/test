@@ -1,0 +1,23 @@
+dependencies:
+- rpm:
+  - gcc-c++
+  - glibc-devel
+  - automake
+  - autoconf
+  - valgrind
+  - gdb
+  - strace
+- rpm:
+  - vim-nerdtree
+  - vim-enhanced
+  - vim-command-t
+  - vim-X11
+  - ctags
+  - vim-taglist
+devassistant_version: 0.9.2
+original_kwargs:
+  github: !!python/unicode 'sashkosnail'
+  name: !!python/unicode '/home/sashkosnail/workspace/test'
+  vim: true
+project_type:
+- cpp
